@@ -120,6 +120,11 @@ body {
 }
 
 .footer-sticky ul.menu-footer li a,
+.footer-sticky ul.menu-footer li a:visited {
+  color: #000;
+}
+
+.footer-sticky ul.menu-footer li a,
 .footer-sticky ul.menu-footer li a:hover,
 .footer-sticky ul.menu-footer li a:visited {
   text-decoration: none;
@@ -138,7 +143,8 @@ body {
   transition: all 0.3s ease;
 }
 .menu-list li a:hover,
-.status-header a:hover {
+.status-header a:hover,
+.footer-sticky ul.menu-footer li a:hover {
   color: #007bff;
 }
 .icon {
